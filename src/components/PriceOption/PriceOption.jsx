@@ -14,7 +14,7 @@ const PriceOption = ({ option }) => {
             <h4 className='text-4xl text-center my-8'>{name}</h4>
             <div className='pl-6 flex-grow'>
                 {
-                    features.map((feature, i) => <Feature key={i} item={feature}></Feature>)
+                    features.map((feature, i) => <Feature key={i} item ={feature}></Feature>)
                 }
             </div>
             <button className='mt-12 bg-green-500 w-full py-3 font-bold rounded-lg hover:bg-green-800'>Buy Now</button>
@@ -22,7 +22,7 @@ const PriceOption = ({ option }) => {
     );
 };
 
-PriceOption.prototype = {
+PriceOption.prototypes = {
     option: PropTypes.object
 }
 
