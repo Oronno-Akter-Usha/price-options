@@ -22,7 +22,7 @@ const PriceOption = ({ option }) => {
     );
 };
 
-PriceOption.prototypes = {
+PriceOption.propTypes = {
     option: PropTypes.object
 }
 
